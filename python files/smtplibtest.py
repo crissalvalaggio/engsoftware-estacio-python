@@ -3,8 +3,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Configurações do servidor SMTP
-email_origem = 'a'
-senha = 'a'
+#lembrando que precisa colocar as opções no google de login de baixa segurança
+email_origem = 'email de origem'
+senha = 'email de origem'
 servidor_smtp = 'smtp.gmail.com'
 porta = 587
 
@@ -16,7 +17,7 @@ smtp.starttls()  # Iniciar o modo TLS para criptografar a conexão
 smtp.login(email_origem, senha)
 
 # Construir a mensagem de e-mail
-destinatario = 'cristianws2012@gmail.com'
+destinatario = 'email de destinatario'
 assunto = 'Teste de e-mail com Python'
 corpo = 'Olá, este é um e-mail de teste enviado usando Python e smtplib.'
 

@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from time import strftime
 
+#relogio ao vivo
+
 def atualizar_horario():
     # Obter a hora atual
     horario_atual = strftime('%H:%M:%S %p')
