@@ -1,3 +1,5 @@
+#coloquei algumas coisas a mais no código como por ex: não aceita caracteres vazios nos campos, impede que seja informado valores altos na idade e colocando um limite de idade para ser informado, etc..  =D
+
 class Aluno:
     def __init__(self, nome, idade, notas):
         self.nome = nome

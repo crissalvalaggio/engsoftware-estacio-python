@@ -1,3 +1,5 @@
+#O codigo é simples, ele faz uma lista adiciona, faz a marcação etc.. pode ser adicionado os valueerror para caracteres vazios ou limitações de caracteres ou números e talz, um exemplo desse tipo de exeção é no arquivo add_aluno+média.py
+
 class Lista:
     def __init__(self):
         self.tarefas = []
